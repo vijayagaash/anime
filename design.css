@@ -1,0 +1,74 @@
+.bodyop {
+    background-color:rgb(0, 0, 0);
+    background-image: url("bg.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+
+    
+    
+}
+.c1 {
+    
+    color: whitesmoke;
+    font-size: 200%;
+    text-align:center;
+
+}
+.containerop { 
+    height: 110px;
+    
+    position:inherit;
+     
+  }
+  
+  .centerop {
+    margin: 0;
+    position:relative;
+    top: 150%;
+    left: 57%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.onep{
+    color: red;
+    
+    align-items: center;
+    
+    
+    border: none;
+    border-radius: 6px;
+    background: white;
+    transition: .5;
+    opacity: .8;    
+
+}
+.onep span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.onep span:after{
+    content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  
+  transition: 0.5s;
+}
+.onep :hover span{
+    padding-right: 25px;
+}
+.onep:hover span::after{
+    opacity: 1;
+  right: 0;
+}
+.onep:hover .stars{
+  display: block;
+  filter: drop-shadow(0 0 10px #fffdef);
+}
+
+
+p{
+    color: white;
+}
